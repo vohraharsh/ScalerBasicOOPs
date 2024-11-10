@@ -1,17 +1,16 @@
-package com.vohraharsh.oops_1;
+package com.vohraharsh.opps_2.p1;
 
 public class Student {
-
     //Class is similar to blueprint
 
     //These are attributes of the class
-    public int age;
-    public float psp;
-    public String name;
+    int age;
+    float psp;
+    protected String name;
     private String course;
 
 
-     //These are methods/behaviours
+    //These are methods/behaviours
 
     void changeBatch(){
         System.out.println("Batch Changed");
@@ -26,6 +25,5 @@ public class Student {
         System.out.println("PSP: " + psp);
         System.out.println("Name: " + name);
     }
-
-
 }
+

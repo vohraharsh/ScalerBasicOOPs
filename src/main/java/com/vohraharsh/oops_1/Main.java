@@ -16,6 +16,9 @@ public class Main {
         harsh.name = "Harsh";
         harsh.psp = (float) 98.65;
 
+        //This will give error because course has a private access modifier
+        //harsh.course = "DSA";
+
 
         //How to access methods of the class we use .
         harsh.changeBatch();
@@ -25,5 +28,9 @@ public class Main {
         aayushi.age = 23;
         aayushi.name = "Aayushi";
         aayushi.psp = (float) 94.65;
+
+
+        //This will give error because course has a private access modifier
+        //aayushi.course = "Java";
     }
 }
